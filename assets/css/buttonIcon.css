@@ -1,0 +1,37 @@
+.boton-icono{
+    background-color: transparent;
+    border-radius: 50px;
+    width: 55px;
+    height: 55px;
+    display: grid;
+    place-items: center;
+    transition: background-color .5s;
+    border: solid 2px var(--colorBorde);
+    cursor: pointer;
+    transition: color .5s, background-color .5s, border-color .5s, border-width .5s;
+    
+}
+
+.boton-icono svg{
+    width: 100% !important;
+    height: 100% !important;
+    padding: .5rem;
+    transition: color .5s;
+
+}
+
+.boton-icono:hover{
+    /* background-color: gray; */
+    border: solid 2px var(--colorTexto);
+    background-color: var(--colorTexto);    
+}
+
+.boton-icono:hover svg{
+    color: white;
+}
+@media (max-width: 500px){
+    .boton-icono{
+        width: 50px;
+        height: 50px;
+    }
+}
