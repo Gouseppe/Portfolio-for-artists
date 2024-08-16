@@ -1,0 +1,23 @@
+.rates-section {
+  position: relative;
+  display: flex;
+  min-height: 100svh;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  z-index: 0;
+}
+
+.rates-section__title {
+  color: var(--colorTexto);
+  font-size: var(--fontSizeH1);
+  font-family: var(--formal);
+  margin-top: 40px;
+}
+
+.rates-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0px 15px 15px 15px;
+}

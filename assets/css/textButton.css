@@ -1,6 +1,5 @@
 .boton-texto{
     width: 180px;
-    padding: 10px;
     background-color: transparent;
     cursor: pointer;
     border: solid 2px var(--colorBorde);
@@ -9,11 +8,19 @@
     font-family: var(--formal);
     font-weight: 500;
     transition: color .5s, background-color .5s, border .5s;
+    
+}
+
+.boton-texto a{
     display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    text-decoration: none;
+    color: inherit;
     justify-content: center;
     gap: 10px;
 }
-
 svg.en-texto{
     /* vertical-align: text-top; */
     align-self: center;
