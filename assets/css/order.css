@@ -1,0 +1,12 @@
+.order-section {
+    padding-top: 1rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+
