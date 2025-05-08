@@ -43,20 +43,30 @@ h2 {
   overflow-x: hidden;
   overflow-y: auto;
   height: 100lvh;
-  background-image: url(../img/background-horizontal.jpg);
+  /* background-image: url(../img/background-horizontal.jpg);
   background-color: white;
   background-position: top;
   background-repeat: repeat;
   background-size: cover;
-  background-attachment: scroll;
+  background-attachment: scroll; */
   position: relative;
   z-index: 1;
+}
+.background {
+  background: linear-gradient(rgb(11, 15, 25), #0c0d2f);
+  background-image: url(../img/background-horizontal.jpg);
+  background-attachment: scroll;
+  background-size: cover;
+  position: fixed;
+  width: 100%;
+  height: 100lvh;
+  z-index: -1;
 }
 /* esta es la primera section */
 .efecto-blanco {
   position: fixed;
   width: 100%;
-  height: 100%;
+  height: 100lvh;
   background-color: white;
   filter: opacity(0.55);
   z-index: -10;
@@ -281,7 +291,7 @@ body {
 }
 
 @media (max-width: 768px) {
-  .principal {
+  .background {
     background-image: url(../img/background-vertical.jpg);
   }
   .foto-de-perfil {
