@@ -42,7 +42,7 @@ h2 {
 .principal {
   overflow-x: hidden;
   overflow-y: auto;
-  height: 100lvh;
+  height: 100dvh;
   /* background-image: url(../img/background-horizontal.jpg);
   background-color: white;
   background-position: top;
@@ -51,6 +51,7 @@ h2 {
   background-attachment: scroll; */
   position: relative;
   z-index: 1;
+  
 }
 .background {
   background: linear-gradient(rgb(11, 15, 25), #0c0d2f);
