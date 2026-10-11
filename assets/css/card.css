@@ -15,14 +15,16 @@
 
 .card-container__title {
   color: var(--colorTexto);
-  font-size: var(--fontSizeH2);
-  font-family: var(--formal);
+  font-size: var(--fontSizeH3);
+  font-weight: normal;
+  font-family: var(--especial);
 }
 
 .card-container__description {
   color: var(--colorTexto);
   font-size: var(--fontSizeParagraph);
   font-family: var(--formal);
+  padding: 1rem;
 }
 
 .card-container__price {

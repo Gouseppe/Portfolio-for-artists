@@ -1,7 +1,7 @@
 .order-section {
-    padding-top: 1rem;
-    padding-left: .5rem;
-    padding-right: .5rem;
+  padding-top: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -9,4 +9,8 @@
   gap: 10px;
 }
 
-
+.order-section__title {
+  font-size: var(--fontSizeH2);
+  font-family: var(--especial);
+  color: var(--colorTexto);
+}

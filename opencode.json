@@ -1,0 +1,15 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "chrome-devtools-v1": {
+      "type": "local",
+      "command": [
+        "npx",
+        "chrome-devtools-mcp@latest",
+        "--chrome-arg=--disable-gpu",
+        "--chrome-arg=--disable-dev-shm-usage"
+      ],
+      "enabled": true
+    }
+  }
+}
