@@ -206,6 +206,7 @@ h2 {
 }
 @keyframes aparicionLateralIzquierda {
   0% {
+    border: 1px solid var(--colorBorde);
     opacity: 0;
     transform: translateX(-150px);
   }
@@ -213,6 +214,7 @@ h2 {
     opacity: 0.5;
     transform: translateX(-50px);
   }
+
   100% {
     opacity: 1;
     transform: translateX(0px);
@@ -267,6 +269,7 @@ body {
     height: 300px;
   }
   .presentacion {
+    grid-template-columns: 1fr 1fr;
     grid-template-areas:
       "informacion informacion"
       "perfil perfil"
@@ -288,7 +291,7 @@ body {
     height: auto;
     view-timeline-name: --revealing-image;
     /* Cambiamos 100% por 10% o 0% */
-    view-timeline-inset: 10% 0px;
+    view-timeline-inset: 80% 0px;
     animation-timeline: --revealing-image;
     animation-name: aparicionLateralDerecha;
     animation-fill-mode: both;
@@ -299,7 +302,7 @@ body {
     height: auto;
     view-timeline-name: --revealing-image;
     /* Cambiamos 100% por 10% o 0% */
-    view-timeline-inset: 10% 0px;
+    view-timeline-inset: 80% 0px;
     animation-timeline: --revealing-image;
     animation-name: aparicionLateralIzquierda;
     animation-fill-mode: both;
@@ -311,9 +314,15 @@ body {
 
   .lista-1,
   .lista-2 {
-    justify-content: center;
     gap: 10px;
     height: auto;
+  }
+  .lista-1 li,
+  .lista-2 li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
   .efecto-blanco {
     background:

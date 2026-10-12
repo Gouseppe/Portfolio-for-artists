@@ -43,6 +43,8 @@ svg.en-texto {
 }
 @media (max-width: 500px) {
   .boton-texto {
-    width: 160px;
+    width: 100%;
+    min-width: 100%;
+    font-size: 1rem;
   }
 }
