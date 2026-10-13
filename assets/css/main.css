@@ -314,8 +314,15 @@ body {
 
   .lista-1,
   .lista-2 {
+    width: 100%;
     gap: 10px;
     height: auto;
+  }
+  .lista-2 {
+    padding: 0 0 0 10px;
+  }
+  .lista-1 {
+    padding: 0 10px 0 0;
   }
   .lista-1 li,
   .lista-2 li {
