@@ -42,7 +42,12 @@ h2 {
 /* esta es la primera section */
 .efecto-blanco {
   position: fixed;
-  inset: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: auto;
+  height: 100vh;
+  height: 100lvh;
   z-index: -1;
   background:
     linear-gradient(rgba(255, 255, 255, 0.55)),
@@ -206,7 +211,6 @@ h2 {
 }
 @keyframes aparicionLateralIzquierda {
   0% {
-    border: 1px solid var(--colorBorde);
     opacity: 0;
     transform: translateX(-150px);
   }
